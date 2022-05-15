@@ -45,3 +45,7 @@ fun main(){
     useRemoteControl()
 }
 ```
+## ABSTRACCIÓN:
+Un ejemplo de abstracción es la interfaz RemoteControl del ejemplo anterior, pues no implementa los métodos
+y estos son implementados en las clases Tv o Door. También se puede lograr un efecto similar a través de las
+clases abstractas de las que nunca se crean objetos y requieren de subclases que implementen dicha funcionalidad.
