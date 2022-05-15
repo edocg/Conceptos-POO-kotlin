@@ -49,3 +49,10 @@ fun main(){
 Un ejemplo de abstracción es la interfaz RemoteControl del ejemplo anterior, pues no implementa los métodos
 y estos son implementados en las clases Tv o Door. También se puede lograr un efecto similar a través de las
 clases abstractas de las que nunca se crean objetos y requieren de subclases que implementen dicha funcionalidad.
+
+## ENCAPSULAMIENTO:
+El encapsulamiento agrupa en una clase métodos y propiedades. En el ejemplo de polimorfismo, la clase Tv
+tiene la propiedad Fabricante y el método up().
+
+Para definir métodos y propiedades que solo se puedan acceder desde dentro de la clase los debemos
+definir con el modificador private.
