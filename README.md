@@ -2,7 +2,7 @@
 
 ## HERENCIA: 
 Permite definir nuevas clases a partir de clases existentes para reutilizar código existente.
-Ver el ejemplo implementado en el principio de Liskov más adelante.
+Ver el ejemplo implementado en el principio de Substitución de Liskov más adelante.
 
 ## POLIMORFISMO:
 Se refiere a la posibilidad de varios objetos de diferentes familias para responder a lo
