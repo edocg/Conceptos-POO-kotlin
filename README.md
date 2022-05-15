@@ -248,3 +248,16 @@ patrones que nos ayuda a lograr colaboración entre clases que no involucren dep
 Seguir los principios SOLID facilita la extensión y la reutilización del código. Pero es importante no
 aplicar estos principios de forma literal y tan apegados a ellos que vuelva nuestras soluciones complicadas
 o se incremente demasiado la comunicación entre muchos módulos haciendo difícil la mantenibilidad.
+
+## EJEMPLO DE PROGRAMACIÓN FUNCIONAL
+## Programa que calcule el salario para tres roles:
+
+* Gerente se gana 200 por hora y trabaja 200 horas al mes
+* Operador se gana 10 por hora y trabaja 230 horas al mes
+* Contador se gana 50 por hora y trabaja 200 horas al mes
+
+Cada puesto puede tener un bonus que se calcula con base al valor de 10 horas adicionales de trabajo de acuerdo con el valor de la hora de cada puesto, para este caso, Solo el operador se ha ganado el bono y el gerente y el contador no.
+
+Debo poder elegir de cuál rol se va a hacer el cáclulo a través de la consola ingresando los números 1, 2 o 3
+
+ver solución en el archivo calcularSalario.kt
