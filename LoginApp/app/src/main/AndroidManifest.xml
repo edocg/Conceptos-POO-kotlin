@@ -10,8 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginApp">
         <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
+            android:name=".NewActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
