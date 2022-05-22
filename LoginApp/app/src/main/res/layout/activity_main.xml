@@ -13,8 +13,9 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/Nombre"
+        android:id="@+id/name"
         android:hint="Nombre"
+        android:digits="AaBbCcDdEeFfGgHhIiJjKkLlMmNnÑñOoPpQqRrSsTtUuVvWwXxYyZz "
         android:textSize="30dp"
         android:textColorHint="@color/black"
         android:layout_marginTop="200dp"
@@ -25,22 +26,23 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/Password"
+        android:id="@+id/password"
         android:hint="Contraseña"
         android:textSize="30dp"
         android:textColorHint="@color/black"
         android:layout_marginTop="30dp"
         android:background="@drawable/edittextbackground"
         android:layout_marginBottom="30dp"
-        android:paddingLeft="10dp"/>
-    
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"/>
+
     <Button
+        android:id="@+id/loginButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/login"
-        android:text="Login"
-        android:textSize="25dp"
-        android:background="@color/teal_700"
         android:layout_marginTop="200dp"
-
+        android:background="@color/teal_700"
+        android:onClick="sendMessage"
+        android:text="Login"
+        android:textSize="25dp" />
   </LinearLayout>
